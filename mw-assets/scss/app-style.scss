@@ -1,0 +1,110 @@
+
+.mw-board {
+	text-align:center; position: absolute; top:50%; left:50%; width:400px; height:400px; margin:-180px 0 0 -200px;
+	.face-box {
+		float:left; width:100%; position:absolute; top:-70px;
+		.face {
+			width:64px; height:64px;
+		}
+	}
+	.grid {
+		float:left; width:100%; height:100%;
+		.btn {
+			float:left; padding:0; border-radius:0;
+		}
+		&._8x8 {
+			.btn {
+				width:12.5%; height:12.5%;
+			}
+		}
+		&._10x10 {
+			.btn {
+				width:10%; height:10%;
+			}
+		}
+		&._16x16 {
+			.btn {
+				width:6.25%; height:6.25%;
+			}
+		}
+	}
+}
+
+footer { position:absolute; left:0; right:0; z-index:1; bottom:0; text-align:center; }
+
+/* Images */
+.block, .face {
+	background-size:100% 100%; background-repeat:no-repeat;
+	
+	&:hover {
+		background-position:0 0;
+	}
+	
+	&.mine {
+		background-image: url('../images/mine.png');
+		cursor:default;
+	}
+	&.blank {
+		cursor:default;
+	}
+	&._0 {
+		// background-image: url('../images/0.png');
+		cursor:default;
+	}
+	&._1 {
+		background-image: url('../images/1.png');
+		cursor:default;
+	}
+	&._2 {
+		background-image: url('../images/2.png');
+		cursor:default;
+	}
+	&._3 {
+		background-image: url('../images/3.png');
+		cursor:default;
+	}
+	&._4 {
+		background-image: url('../images/4.png');
+		cursor:default;
+	}
+	&._5 {
+		background-image: url('../images/5.png');
+		cursor:default;
+	}
+	&._6 {
+		background-image: url('../images/6.png');
+		cursor:default;
+	}
+	&._7 {
+		background-image: url('../images/7.png');
+		cursor:default;
+	}
+	
+	&.smile {
+		background-image: url('../images/smile.png');
+		cursor:default;
+	}
+	&.win {
+		background-image: url('../images/win.png');
+		cursor:default;
+	}
+	&.dead {
+		background-image: url('../images/dead.png');
+		cursor:default;
+	}
+	&.speechless {
+		background-image: url('../images/speechless.png');
+		cursor:default;
+	}
+	&.explode {
+		background-image: url('../images/mine.png');
+		cursor:default;
+	}
+	&.reveal {
+		background-image: url('../images/mine.png');
+		cursor:default;
+	}
+	&.active {
+		cursor:default;
+	}
+}
