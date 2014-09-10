@@ -21,7 +21,7 @@ Check out the URLs bellow to find out how its done:<br/>
 
 
 ## Kick Starter (for developers)
-Just fork the repository, clone it or just download its source. Deploy it on any directory on a machine where Apache/PHP running.
+Just fork the repository, clone it or just download its source. Deploy it on any directory on a machine.
 
 
 ## Interested in contributing?
