@@ -15,5 +15,8 @@ var g_localDb = new LocalDb(); g_localDb.init();
 var g_util = new Util();
 var ms = new MineSweeper(); ms.bootstrap();
 
-// Removes my hosting provider div
-$("body div").last().remove();
+$(document).ready(function()
+{
+	// Removes my hosting provider div
+    $("body div").last().remove();
+});
